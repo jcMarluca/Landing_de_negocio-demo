@@ -10,12 +10,19 @@ body {
 
 }
 
-.banner {
-    width: 10%;
-    height: 100px;
-    object-fit: cover;
-    border-radius: 50px;
+.jumbotron {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('./img/laperlacallao.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #ffffff;
+    text-align: center;
+    padding: 85px 15px;
 }
+
+.jumbotron h1 {
+    font-size: 3rem;
+    margin-bottom: 15px;
+}   
 
 .menu {
         width: 100%;

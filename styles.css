@@ -1,4 +1,39 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
 body {
-    background-color: black;
-    color:white
+    background-color: #6f4e5aad;
+    color:black;
+
+}
+
+.banner {
+    width: 10%;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 50px;
+}
+
+.menu {
+        width: 100%;
+        margin: 2px auto;
+        padding: 50px;
+        background-color: rgba(253, 141, 204, 0.923);
+        color: black;
+}
+header {
+    display: flex;
+    text-align: right;
+    margin-bottom: 300px;
+    background-color: rgba(209, 218, 218, 0.923);
+    margin-top: 5px;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 5px;
+
 }
